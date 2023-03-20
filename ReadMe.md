@@ -4,7 +4,7 @@
 **Perks**
 - Simple
 - Elegant
-- actually looks good this time
+- actually looks a little better this time
 - with bright colors this time
 - still no flashy animations
 
