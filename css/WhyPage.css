@@ -1,0 +1,16 @@
+/* this stylesheet contains the style for the why page*/
+.content{
+    background-color: rgb(0, 219, 255);
+    padding: 10px 10px;
+    border-radius: 15px;
+    
+}
+.content a{
+    font-weight: bold;
+    text-decoration: none;
+}
+.special{
+    background-color: #ff3300;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
