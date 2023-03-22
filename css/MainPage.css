@@ -1,5 +1,12 @@
 /* this stylesheet contains the style for the main page*/
-
+.skip-nav{
+    color: #0000ff;
+    font-weight: bold;
+    text-decoration: none;
+}
+section{
+    padding: 5px;
+}
 img{
     border-radius: 15px;
     width: 100%;
@@ -23,7 +30,7 @@ img{
 .overlay:hover {
     opacity: 1;
 }
-  
+
 .text {
     color: #ffffff;
     font-size: 20px;
