@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Links Page</title>
         <link rel="stylesheet" href="..\css\main.css">
+        <link rel="stylesheet" href="..\css/Links.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
         <div class="main">
@@ -14,23 +16,34 @@
             </header>
             <hr>
             <section>
-                <nav>
-                    <ul>
-                        <li><a href="WhyPage.html">WHY</a></li>
-                        <li><a href="WhatPage.html">WHAT</a></li>
-                        <li><a href="AllTags.html">ALL TAGS</a></li>
-                        <li><a href="WhatNext.html">WHAT NEXT</a></li>
-                        <li><a href="../MainPage.html">MAIN</a></li>
-                    </ul>
+                <nav class="nav-bar">
+                    <a href="WhyPage.html" target="_self"><i class="material-icons">question_mark</i>WHY</a>
+                    <a href="WhatPage.html" target="_self"><i class="material-icons">question_mark</i>WHAT</a>
+                    <a href="AllTags.html" target="_self"><i class="material-icons">select_all</i>ALL TAGS</a>
+                    <a href="WhatNext.html" target="_self"><i class="material-icons">next_plan</i>WHAT NEXT</a>
+                    <a href="../MainPage.html" target="_self" class="split"><i class="material-icons">home</i>MAIN</a>
                 </nav>
                 <hr>
                 <div class="content">
-                    <ul>
-                        <li><a href="https://myanimelist.net/profile/Ni-San4">My Anime List</a></li>
-                        <li><a href="https://instagram.com/anikidraws">Art Instagram</a></li>
-                        <li><a href="https://github.com/N1-San">GITHUB</a></li>
-                        <li><a href="https://twitter.com/AnikiCodes">TWITTER</a></li>
-                    </ul>
+                    <div class="row">
+                        <div class="column column1">
+                            <h1><a href="https://myanimelist.net/profile/Ni-San4" target="_blank"><img src="..\Media\MyAnimeList_Logo.png" alt="MyAnimeList_Logo"><br>My Anime List</a></h1>
+                        </div>
+                        <div class="column column2">
+                            <h1><a href="https://instagram.com/anikidraws" target="_blank"><img src="..\Media\Instagram_Logo.png" alt="Instagram_Logo"><br>Art Instagram</a></h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column column3">
+                            <h1><a href="https://github.com/N1-San" target="_blank"><img src="..\Media\Github_Logo.jpg" alt="Twitter_Logo"><br>GITHUB</a></h1>
+                        </div>
+                        <div class="column column4">
+                            <h1><a href="https://twitter.com/AnikiCodes" target="_blank"><img src="..\Media\Twitter_Logo.png" alt="Twitter_Logo"><br>TWITTER</a></h1>
+                        </div>
+                    </div>
+                    <div class="special">
+                        <h1>Nothing new here, the same old links, just better looking</h1>
+                    </div>
                 </div>
                 <hr>
             </section>
